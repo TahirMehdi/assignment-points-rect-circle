@@ -1,0 +1,31 @@
+{
+  "name": "assignment-points-rect-circle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "karma start",
+    "start": "webpack-dev-server"
+  },
+  "author": "Tahir Mehdiyev <tahir.mehdiyev@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.6",
+    "html-webpack-plugin": "^2.30.1",
+    "jasmine-core": "^2.9.1",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.1",
+    "karma-spec-reporter": "0.0.32",
+    "karma-webpack": "^2.0.4",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "copy-webpack-plugin": "^4.3.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  }
+}
